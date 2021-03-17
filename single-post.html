@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Noel's Library</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="original-load"></div>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="subscribe-newsletter-area">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-body">
+                        <h5 class="title">訂閱活動消息</h5>
+                        <form action="#" class="newsletterForm" method="post">
+                            <input type="email" name="email" id="subscribesForm2" placeholder="電子郵件">
+                            <button type="submit" class="btn original-btn">訂閱</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-sm-8">
+                        <div class="breaking-news-area">
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    
+                                    <li><a href="#">新書報到！</a></li>
+                                    <li><a href="#">Logo我自己做的，根本天才。</a></li>
+                                    <li><a href="#">每次借閱兩週為限。</a></li>
+                                    <li><a href="#">每本書可續借一週。</a></li>
+                                                                       
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Social Area -->
+                    <div class="col-12 col-sm-4">
+                        <div class="top-social-area">
+                            <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a> -->
+                            <a href="https://www.facebook.com/noelnoel.me" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/noelnoel_me" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/li__wei__" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo Area -->
+        <div class="logo-area text-center">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <a href="index.html" class="original-logo"><img src="img/core-img/logo.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav Area -->
+        <div class="original-nav-area" id="stickyNav">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between">
+
+                        <!-- Subscribe btn -->
+                        <div class="subscribe-btn">
+                            <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">訂閱活動消息</a>
+                        </div>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu" id="originalNav">
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">首頁</a></li>
+                                    <!-- <li><a href="#">頁面總覽</a>
+                                        <ul class="dropdown">
+                                            <li><a href="index.html">首頁</a></li>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="single-post.html">Single Post</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="#">書籍類型</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">中文書</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">文學小說</a></li>
+                                                    <li><a href="#">漫畫/輕小說</a></li>
+                                                    <li><a href="#">商業理財</a></li>
+                                                    <li><a href="#">資訊/工程</a></li>
+                                                    <li><a href="#">心理/勵志</a></li>
+                                                    <li><a href="#">人文/社會</a></li>
+                                                    <li><a href="#">藝術/設計</a></li>
+                                                    <li><a href="#">工具書</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">外文書/原文書</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">文學小說</a></li>
+                                                    <li><a href="#">漫畫/輕小說</a></li>
+                                                    <li><a href="#">商業理財</a></li>
+                                                    <li><a href="#">資訊/工程</a></li>
+                                                    <li><a href="#">心理/勵志</a></li>
+                                                    <li><a href="#">人文/社會</a></li>
+                                                    <li><a href="#">藝術/設計</a></li>
+                                                    <li><a href="#">工具書</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">簡體書</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">沒這種東西</a></li>                                                   
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">雜誌</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">周刊</a></li>
+                                                    <li><a href="#">月刊</a></li>
+                                                    <li><a href="#">中文</a></li>
+                                                    <li><a href="#">日本</a></li>
+                                                    <li><a href="#">歐美</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us.html">關於本館</a></li>
+                                    
+                                    <li><a href="notyet.html">會員登入</a></li>
+                                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                                </ul>
+
+                                <!-- Search Form  -->
+                                <div id="search-wrapper">
+                                    <form action="#">
+                                        <input type="text" id="search" placeholder="Search something...">
+                                        <div id="close-icon"></div>
+                                        <input class="d-none" type="submit" value="">
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Single Blog Area Start ##### -->
+    <div class="single-blog-wrapper section-padding-0-100">
+
+        <!-- Single Blog Area  -->
+        <div class="single-blog-area blog-style-2 mb-50">
+            <div class="single-blog-thumbnail">
+                <img src="img/blog-img/7.png" alt="">
+                <div class="post-tag-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="post-date">
+                                    <a href="#">可借<span>館藏狀態</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- ##### Post Content Area ##### -->
+                <div class="col-12 col-lg-9">
+                    <!-- Single Blog Area  -->
+                    <div class="single-blog-area blog-style-2 mb-50">
+                        <!-- Blog Content -->
+                        <div class="single-blog-content">
+                            <div class="line"></div>
+                            <a href="#" class="post-tag">哈利波特</a>
+                            <h4><a href="#" class="post-headline mb-0">《哈利波特－神秘的魔法石》</a></h4>
+                            <div class="post-meta mb-50">
+                                <p>作者<a href="#">J.K.羅琳</a></p>
+                                
+                            </div>
+                            <p>《哈利波特－神秘的魔法石》（英語：Harry Potter and the Philosopher's Stone）是哈利波特系列小說的第一集，由英國作家J.K.羅琳創作。劇情講述了一位名叫哈利波特的小巫師發現了自己的魔法天賦後，去霍格華茲魔法與巫術學院就讀一年級的經歷。在朋友的幫助下，哈利與殺害了自己父母並企圖東山再起的黑巫師佛地魔對峙。</p>
+
+                            <p>這部小說是羅琳的處女作，由布魯姆斯伯里出版公司於1997年6月26日在倫敦出版。本書贏得了大部分由兒童評選的英國圖書獎項，以及美國的一些其他獎項。它於1999年8月在《紐約時報》的暢銷小說排行榜上登頂榜首，並於1999年和2000年期間在該榜單上保持高位。這本書被翻譯成許多其他語言版本，中文正體版於2000年6月23日出版，簡體版於2000年9月出版。基於小說改編的同名電影於2001年上映。</p>
+
+                            <p>《魔法石》受到了大部分的積極評價，它們稱讚羅琳的想像力、幽默感、簡單直白的風格和巧妙的情節設計，儘管一些評論認為最後一章似乎有些倉促。本小說被評論家與羅琳最喜愛的作家之一簡·奧斯汀的作品相比，或和羅爾德·達爾相比，他的作品在哈利波特系列出現前占據了兒童文學領域，還和古希臘的講故事者荷馬相比。一些書評人認為本書屬於維多利亞時代和愛德華時代的寄宿學校故事，而另一些人認為它著重於當代倫理和社會問題，由此把這一文學類型放置在了現代世界。</p>
+                        </div>
+                    </div>
+
+                    <!-- About Author -->
+                    <div class="blog-post-author mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="img/bg-img/b6.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">作者</span>
+                            <h4><a href="#" class="author-name">J·K·羅琳</a></h4>
+                            <p>喬安娜·羅琳，CH，OBE，HonFRSE，FRCPE，FRSL（英語：Joanne Rowling，1965年7月31日－ ），筆名J·K·羅琳（英語：J. K. Rowling）及羅柏特·加爾布雷斯（英語：Robert Galbraith），英國小說家、電影編劇及製片人，代表作為《哈利波特》系列作品。她的《哈利波特》暢銷全球，熱賣超過4億本，成為史上最暢銷的書籍之一；其同名改編電影也成為電影史上票房收入最高的電影之一。該系列電影獲得羅琳的完整授權，她還親自擔任《哈利波特－死神的聖物（上）》和《哈利波特－死神的聖物（下）》的電影監製。</p>
+                        </div>
+                    </div>
+
+                    <!-- Comment Area Start -->
+                    
+
+                    <div class="post-a-comment-area mt-70">
+                        <h4>預約借書</h4>
+                        <h6>辦理線上預借服務，請於二工作日內前來領取 (含當日)。</h6>
+                        <!-- Reply Form -->
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="group">
+                                        <select name="subject" id="subject" required>
+                                            <option value=""selected>請選擇欲取地點</option>
+                                            <option value="1">臨櫃</option>
+                                            <option value="2">本館一樓廣場流動書車</option>                                            
+                                        <!-- <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label>Subject</label> -->
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 col-md-6">
+                                    <div class="group">
+                                        <input type="text" name="name" id="name" required>
+                                        <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label>姓名</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="group">
+                                        <input type="email" name="email" id="email" required>
+                                        <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label>信箱</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="group">
+                                        <input type="text" name="subject" id="subject" required>
+                                        <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label>Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="group">
+                                        <textarea name="message" id="message" required></textarea>
+                                        <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label>Comment</label>
+                                    </div>
+                                </div> -->
+                                <div class="col-12">
+                                    <button type="submit" class="btn original-btn">預約</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- ##### Sidebar Area ##### -->
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="post-sidebar-area">
+
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <form action="#" class="search-form">
+                                <input type="search" name="search" id="searchForm" placeholder="搜尋">
+                                <input type="submit" value="submit">
+                            </form>
+                        </div>
+
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title subscribe-title">訂閱活動消息</h5>
+                            <div class="widget-content">
+                                <form action="#" class="newsletterForm">
+                                    <input type="email" name="email" id="subscribesForm" placeholder="電子郵件">
+                                    <button type="submit" class="btn original-btn">訂閱</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">療癒一下，你給我看完。</h5>
+                            <a href="#"><img src="img/bg-img/add.gif" alt=""></a>
+                        </div>
+
+                       
+
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">搜尋標籤</h5>
+                            <div class="widget-content">
+                                <ul class="tags">
+                                    <li><a href="#">中文書</a></li>
+                                    <li><a href="#">外文書</a></li>
+                                    <li><a href="#">雜誌</a></li>
+                                    <li><a href="#">文學小說</a></li>
+                                    <li><a href="#">勵志</a></li>
+                                    <li><a href="#">工具書</a></li>
+                                    <li><a href="#">漫畫/輕小說</a></li>
+                                    <li><a href="#">商業理財</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Single Blog Area End ##### -->
+
+    <div class="instagram-feed-area">   
+    </div>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                   
+                    <!-- Footer Nav Area -->
+                    <div class="classy-nav-container breakpoint-off">
+                        <!-- Classy Menu -->
+                        <nav class="classy-navbar justify-content-center">
+
+                            <!-- Navbar Toggler -->
+                            <div class="classy-navbar-toggler">
+                                <span class="navbarToggler"><span></span><span></span><span></span></span>
+                            </div>
+
+                            <!-- Menu -->
+                            <div class="classy-menu">
+
+                                <!-- close btn -->
+                                <div class="classycloseIcon">
+                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                </div>
+
+                                <!-- Nav Start -->
+                                <div class="classynav">
+                                    <ul>
+                                        <li><a href="#">首頁</a></li>
+                                        <li><a href="#">關於本館</a></li>
+                                        <!-- <li><a href="#">Lifestyle</a></li>
+                                        <li><a href="#">travel</a></li>
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">Contact</a></li> -->
+                                    </ul>
+                                </div>
+                                <!-- Nav End -->
+                            </div>
+                        </nav>
+                    </div>
+                    
+                    <!-- Footer Social Area -->
+                    <div class="footer-social-area mt-30">
+                        <a href="https://www.facebook.com/noelnoel.me" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/noelnoel_me" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/li__wei__" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> <u>Noel Hsu</u> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
